@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <main>
+        <section>
+            <h1>Sobre Mim</h1>
+            <p>
+                Olá! Me chamo Gabriel Neres de Araujo.
+                Sou estudante do curso de Redes de Computadores
+                no Instituto Federal da Paraíba.
+                Tenho 19 anos e sou apaixonado por tecnologia e inovação.
+                Meu objetivo à longo prazo é me trabalhar como um
+                profissional de DevOps.
+                Durante alguns anos, trabalhei na realização de eventos e
+                em cozinha industrial.
+                Me adaptando assim a trabalhar sobre pressão, identificar e resolver
+                problemas de forma eficiente.
+                Atualmente, estagio como analista de redes na empresa ViaNoc, curso minha faculdade e estou em busca de
+                aperfeiçoar meus conhecimentos
+                sobre cloud computing. Estou realizando o curso Re/Start AWS para tirar a certificação Cloud
+                Practitioner.
+                Estou em busca de novos desafios e aprendizados para me
+                desenvolver como profissional e contribuir com o crescimento da empresa.
+            </p>
+        </section>
+        <section>
+            <h1>Meus Projetos</h1>
+            <ul class="projects-grid">
+                <li class="project-card">
+                    <a href="https://github.com/GuilhermeMeloRoxo/GreenPlace-P1-Engenharia-de-Software" target="_blank">
+                        <h3>GreenPlace</h3>
+                        <p>
+                            Desenvolvido em grupo para a
+                            disciplina de Programação Web, o GreenPlace é uma plataforma de
+                            consciencialização ambiental que permite aos utilizadores monitorizarem a sua
+                            pegada de carbono através da análise de hábitos diários, fornecendo simultaneamente às
+                            empresas um
+                            painel de dados sobre a sustentabilidade dos seus clientes. O sistema foi construído com
+                            Python e a
+                            framework Flask, utilizando uma arquitetura modular de Blueprints e persistência de dados em
+                            ficheiros CSV.
+                            A interface é totalmente responsiva e dinâmica, integrando HTML5, CSS3 e JavaScript para
+                            garantir validações em
+                            tempo real e uma experiência de utilização fluida em diversos dispositivos.
+                        </p>
+                    </a>
+                </li>
+                <li class="project-card">
+                    <a href="https://github.com/GabrielNeres44/Projeto-REsgate.bot" target="_blank">
+                        <h3>REsgate.bot</h3>
+                        <p>
+                            O projeto integra automação, inteligência artificial e comunicação via apps de mensagem
+                            para permitir que qualquer pessoa denuncie rapidamente casos envolvendo animis.
+                            Todas as informações coletadas são armazenadas automaticamente em uma planilha do
+                            Google Sheets e enviadas por email ao final da denúncia.
+                            O propósito é oferecer uma solução simples e eficiente que apoia o resgate,
+                            o bem-estar animal e a gestão de ocorrências.
+                            O projeto foi desenvolvido com JSON, JavaScript e n8n.
+                        </p>
+                    </a>
+                </li>
+                <li class="project-card">
+                    <a href="#" style="cursor: default;">
+                        <h3>Browser CLI</h3>
+                        <p>
+                            O projeto simula o funcionamento de um navegador web focado na gestão de histórico de
+                            navegação e hierarquia de URLs.
+                            Através de uma interface CLI, o sistema valida endereços, mapeia links internos e gerencia o
+                            percurso do usuário,
+                            permitindo avançar em diretórios ou retornar páginas.
+                            O propósito é aplicar estruturas de dados clássicas: uma Pilha para o histórico (LIFO)
+                            e uma Árvore para a organização de domínios e suas subpastas.
+                            O sistema também realiza a leitura de arquivos físicos para exibir o conteúdo das páginas
+                            encontradas.
+                            O projeto foi desenvolvido com foco em encapsulamento e modularização, utilizando Python e
+                            manipulação de arquivos .txt.
+                        </p>
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+        <section>
+            <h1>Laboratórios</h1>
+            <ul class="projects-grid">
+                <li class="project-card">
+                    <a href="https://drive.google.com/drive/folders/1C3FTJTYuYQ6nZuUg4mGD_I9BJDEp27th?usp=drive_link"
+                        target="_blank">
+                        <h3>Laboratórios Cloud</h3>
+                        <p>Acesse meus laboratórios de Cloud Computing mais relevantes no Google Drive.</p>
+                    </a>
+                </li>
+                <li class="project-card">
+                    <a href="https://drive.google.com/drive/folders/1zOGs_YTr0sv236RIfRNx8zRbLpOs38MS?usp=drive_link"
+                        target="_blank">
+                        <h3>Laboratórios Redes</h3>
+                        <p>Acesse meus laboratórios de Redes mais relevantes no Google Drive.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <div class="contact-icons">
+                <a href="mailto:gabrielneresaraujo@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/5583991724483" target="_blank" aria-label="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/GabrielNeres44" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gabriel-ner/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> João Pessoa - PB</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Portfolio</p>
+    </footer>
+</body>
+
+</html>
